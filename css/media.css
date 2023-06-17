@@ -1,0 +1,52 @@
+@media screen and (min-width: 320px) {
+    .benefits-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 582px;
+    }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        text-transform: none;
+        min-width: 496px;
+    }
+
+    .hero-btn {
+        margin-top: 36px;
+    }
+
+    .benefits-list {
+        display: flex;
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1158px;
+    }
+
+    .hero {
+        padding: 188px 0;
+    }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        text-transform: none;
+        min-width: 496px;
+    }
+
+    .hero-btn {
+        margin-top: 48px;
+    }
+
+    .benefits-container {
+        display: flex;
+    }
+}
