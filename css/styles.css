@@ -61,6 +61,7 @@ img {
 }
 
 .text {
+    font-weight: 500;
     font-size: 16px;
     line-height: var(--typical-lh);
     letter-spacing: 0.02em;
@@ -101,6 +102,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     align-items: center;
+    margin-right: 120px;
 }
 
 .logo-span {
@@ -350,20 +352,28 @@ img {
     overflow: hidden;
 }
 
-.benefits-list {}
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 72px;
+}
 
 .benefits-item {
     max-width: 396px;
 }
 
 .benefits-item-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
+    color: #2E2F42;
 }
 
 .benefits-item-text {
-    margin-bottom: 72px;
-    text-align: center;
+    color: #434455;
 }
 
 /*-----------WORKS-------------*/
